@@ -1,5 +1,7 @@
 # hexo-postscript
 
+[![npm:](https://img.shields.io/npm/v/hexo-postscript.svg?style=flat)](https://www.npmjs.com/packages/hexo-postscript)
+
 **hexo-postscript** is an useful tool for adding current post link in hexo post page.
 
 ## Install
