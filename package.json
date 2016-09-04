@@ -1,0 +1,25 @@
+{
+  "name": "hexo-postscript",
+  "version": "1.0.0",
+  "description": "An useful tool for adding current post link in hexo post page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangg/hexo-postscript.git"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "post",
+    "addlink"
+  ],
+  "author": "Brook Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangg/hexo-postscript/issues"
+  },
+  "homepage": "https://github.com/yangg/hexo-postscript#readme"
+}
