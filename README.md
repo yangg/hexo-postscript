@@ -4,15 +4,16 @@
 
 **hexo-postscript** is an useful tool for adding current post link in hexo post page.
 
-## Install
+## Installation
 
 ```bash
-$ npm install hexo-postscript --save
+npm install --save hexo-postscript
 ```
 
 ## Usage
 
-First add configuration in `_config.yml` from your hexo project.
+First add configuration in `_config.yml` from your hexo project, support javascript template string.
+See Hexo [Post Variables](https://hexo.io/docs/variables.html#Page-Variables)
 
 ```yaml
 postscript: "> 原文地址：[${post.permalink}](${post.permalink})\n获取最佳阅读体验并参与[讨论](${post.permalink}#comments)，请访问原文"
