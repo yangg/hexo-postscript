@@ -1,6 +1,6 @@
 {
   "name": "hexo-postscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An useful tool for adding current post link in hexo post page",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yangg/hexo-postscript.git"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
   },
   "keywords": [
     "hexo",
