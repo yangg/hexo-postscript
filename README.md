@@ -24,6 +24,8 @@ Run hexo command.
 ```bash
 $ hexo clean && hexo g
 ```
+## Preview
+![hexo-postscript preview](https://cloud.githubusercontent.com/assets/409225/18305337/b1820910-7519-11e6-8e7e-fe1fe1965fec.png)
 
 ## Demo
 
