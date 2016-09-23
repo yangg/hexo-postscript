@@ -1,6 +1,6 @@
 {
   "name": "hexo-postscript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An useful tool for adding current post link in hexo post page",
   "main": "index.js",
   "scripts": {

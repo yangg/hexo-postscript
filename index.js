@@ -3,7 +3,9 @@
 var config = hexo.config;
 
 hexo.extend.filter.register('before_post_render', function (data) {
-  if (!config.postscript || data.layout !== 'post') {
+  // config set
+  // and is published
+  if (!(config.postscript && data.published)) {
     return data;
   }
 
