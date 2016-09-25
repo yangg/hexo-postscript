@@ -11,5 +11,5 @@ hexo.extend.filter.register('before_post_render', function (data) {
 
   var getPS = new Function('post', 'return `' + config.postscript + '`');
   var postscript = getPS(data);
-  data.content += '\n\n' + postscript;
+  data.content += postscript ? ('\n\n' + postscript) : '';
 });

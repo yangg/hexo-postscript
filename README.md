@@ -18,7 +18,10 @@ See Hexo [Post Variables](https://hexo.io/docs/variables.html#Page-Variables)
 ```yaml
 postscript: "> 原文地址：[${post.permalink}](${post.permalink})\n获取最佳阅读体验并参与[讨论](${post.permalink}#comments)，请访问原文"
 ```
-
+Or add on condition
+```yaml
+postscript: "${post.link ? '' : `> 原文地址：[${post.permalink}](${post.permalink})\n获取最佳阅读体验并参与[讨论](${post.permalink}#comments)，请访问原文`}"
+```
 Run hexo command.
 
 ```bash
